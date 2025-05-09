@@ -1,6 +1,25 @@
 <h2>🔢 Jogo de Adivinhação do Número Secreto em C</h2>
 <p>Este é um simples jogo, mas divertido, jogo de adivinhação desenvolvido na linguagem C. O computador escolhe um número secreto, e você, jogador, tenta adivinhá-lo. Sua pontuação inicial é de 1000 pontos, e a cada tentativa, o valor do seu chute é subtraído da sua pontuação. Escolha a sua dificuldade e divirta-se!</p> 
 
+<h2>⚙️ Como Executar</h2>
+<p>Para utilizar a calculadora, você precisará de um compilador C (como o GCC) instalado em seu sistema. Siga os passos abaixo:
+Salve o código: Guarde o código-fonte da calculadora em um arquivo com a extensão .c (por exemplo, adivinhacao.c).</p>
+
+<h4>Compile o código: Abra o seu terminal ou prompt de comando, navegue até o diretório onde você salvou o arquivo e execute o seguinte comando para compilar:
+
+```bash
+  (gcc adivinhacao.c -o adivinhacao)
+```  
+Execute a calculadora: Após a compilação ser concluída com sucesso, execute o programa com o comando:
+
+```bash
+(./adivinhacao)
+```
+Em sistemas Windows, pode ser necessário usar:</h4>
+
+```bash
+adivinhacao.exe
+```          
 <h2>🕹️ Como Jogar</h2>
 <p>Ao iniciar o jogo, você será apresentado a um menu com três níveis de dificuldade:
 
