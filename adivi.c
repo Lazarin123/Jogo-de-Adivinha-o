@@ -99,4 +99,12 @@ int main () {
         printf("Voce fez %.2f pontos. Ate a proxima!\n\n", pontos);
     } else {
 
-       
+         printf("       \\|/ ____ \\|/    \n");   
+        printf("        @~/ ,. \\~@      \n");   
+        printf("       /_( \\__/ )_\\    \n");   
+        printf("          \\__U_/        \n");
+
+        printf("\nVoce perdeu! Tente novamente!\n\n");
+    }
+
+}
